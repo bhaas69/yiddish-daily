@@ -11,7 +11,7 @@ That's the headline Premier Coffee chose to sell their product to Yiddish-speaki
 ```
    ![Premier Coffee Yiddish Advertisement]({{ site.baseurl }}/assets/images/premier-coffee-ad.png)
 
-## The Audacity of This Ad
+## The Chutzpah of This Ad
 
 Look at this advertisement. The English headline jumps out immediately—designed to catch the eye of both the Yiddish-speaking wife AND her potentially English-speaking children. The message is clear: *You're trying your best, but you're failing.*
 
