@@ -1,8 +1,8 @@
 # Site settings
 title: Yiddish Daily
 description: One surprising discovery from the Yiddish world. Every day.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/yiddish-daily"
+url: "https://bhaas69.github.io"
 
 # Build settings
 markdown: kramdown
