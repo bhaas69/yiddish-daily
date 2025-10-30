@@ -1,0 +1,57 @@
+✅ SITE UPDATED - NOW FEATURING COFFEE AD
+==========================================
+
+Your site has been updated to launch with the Premier Coffee ad instead!
+
+WHAT CHANGED:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ First post now features: "Why Good Wives Make Bad Coffee"
+✓ Your coffee ad image is already included (premier-coffee-ad.png)
+✓ Post focuses on the sexist/manipulative advertising angle
+✓ Much more shareable and conversation-starting
+✓ Save Coca-Cola ad for a future post (it's still a good one!)
+
+NEW POST TITLE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Why Good Wives Make Bad Coffee: When Advertising Blamed Jewish Housewives"
+
+WHAT THE POST COVERS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• The shocking headline and what it meant
+• How 1920s advertising manipulated immigrant women
+• Gender expectations in Jewish households
+• The "blame the housewife" marketing strategy
+• Cultural context of assimilation anxiety
+• Why this ad is a fascinating historical artifact
+
+WHY THIS IS A BETTER FIRST POST:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ MORE surprising (people will say "WHAT?!")
+✓ MORE shareable (that headline is gold)
+✓ MORE discussion-worthy (sexism, manipulation, culture)
+✓ BETTER visual (the illustration tells a story)
+✓ MORE emotional engagement (people will have reactions)
+
+EVERYTHING ELSE IS THE SAME:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Site design unchanged
+✓ Email signup ready to go
+✓ Same deployment process (GitHub Pages)
+✓ All instructions still accurate
+
+YOUR NEXT STEPS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Upload the entire yiddish-daily folder to GitHub
+2. Enable GitHub Pages
+3. Your site goes live with the coffee ad!
+4. Share it and watch the reactions roll in
+
+The image is already included, so you don't need to do anything extra!
+
+Ready to deploy? Follow the QUICK-START.txt guide!

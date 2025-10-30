@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="homepage-intro">
+    <h2>Welcome to Yiddish Daily</h2>
+    <p>Discover one fascinating piece of Yiddish history, culture, or creativity. Every single day.</p>
+</div>
+
+<div class="email-signup">
+    <h3>📬 Get Daily Discoveries in Your Inbox</h3>
+    <p>Join readers who start their day with a piece of Yiddish culture.</p>
+    
+    <!-- Replace the action URL with your email service provider -->
+    <!-- For now, this is a placeholder - you'll add Buttondown/Mailchimp later -->
+    <form class="email-form" action="https://buttondown.email/api/emails/embed-subscribe/yiddish-daily" method="post" target="_blank">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit">Subscribe Free</button>
+    </form>
+    <p style="font-size: 0.85em; color: #888; margin-top: 10px;">No spam. Unsubscribe anytime. One email per day.</p>
+</div>
+
+<div class="latest-post">
+    <h2 style="text-align: center; margin-bottom: 40px; color: #2c3e50;">Latest Discovery</h2>
+    
+    {% for post in site.posts limit:1 %}
+        <article class="post">
+            <header class="post-header">
+                <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
+                    {{ post.date | date: "%A, %B %d, %Y" }}
+                </time>
+                <h1 class="post-title">{{ post.title }}</h1>
+            </header>
+
+            <div class="post-content">
+                {{ post.content }}
+            </div>
+
+            <footer class="post-footer">
+                <div class="post-share">
+                    <p><strong>Share this discovery:</strong></p>
+                    <a href="https://twitter.com/intent/tweet?text={{ post.title | uri_escape }}&url={{ post.url | absolute_url }}" target="_blank" class="share-button">Twitter</a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ post.url | absolute_url }}" target="_blank" class="share-button">Facebook</a>
+                    <a href="mailto:?subject={{ post.title | uri_escape }}&body={{ post.url | absolute_url }}" class="share-button">Email</a>
+                </div>
+            </footer>
+        </article>
+    {% endfor %}
+</div>
+
+<div style="text-align: center; margin-top: 50px; margin-bottom: 30px;">
+    <a href="{{ '/archive' | relative_url }}" style="display: inline-block; padding: 12px 30px; background-color: #3498db; color: #fff; text-decoration: none; border-radius: 4px; font-family: 'Open Sans', sans-serif; font-weight: 600;">View All Discoveries →</a>
+</div>

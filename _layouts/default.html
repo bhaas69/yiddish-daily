@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
+    {% seo %}
+    {% feed_meta %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <p class="site-tagline">{{ site.description }}</p>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. Preserving Yiddish culture, one discovery at a time.</p>
+            <p class="footer-links">
+                <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a> | 
+                <a href="{{ '/archive' | relative_url }}">Archive</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

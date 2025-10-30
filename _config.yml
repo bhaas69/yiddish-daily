@@ -1,0 +1,30 @@
+# Site settings
+title: Yiddish Daily
+description: One surprising discovery from the Yiddish world. Every day.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# RSS Feed
+feed:
+  path: feed.xml
