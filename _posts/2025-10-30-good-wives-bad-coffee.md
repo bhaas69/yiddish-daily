@@ -8,7 +8,7 @@ date: 2025-10-30 08:00:00 -0400
 
 That's the headline Premier Coffee chose to sell their product to Yiddish-speaking housewives in 1920s America. Yes, really.
 
-```
+
    ![Premier Coffee Yiddish Advertisement]({{ site.baseurl }}/assets/images/premier-coffee-ad.png)
 
 ## The Chutzpah of This Ad
